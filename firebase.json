@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/mgm-dental-clinic/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
