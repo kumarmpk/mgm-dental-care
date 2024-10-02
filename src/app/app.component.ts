@@ -12,4 +12,5 @@ import { FooterComponent } from './layouts/footer/footer.component';
 })
 export class AppComponent {
   title = 'mgm-dental-clinic';
+  
 }

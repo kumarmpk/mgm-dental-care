@@ -12,7 +12,7 @@
                     <!--Grid column-->
                     <div class="col-lg-4 col-md-12 mb-md-0 mt-4">
                         <a class="m-1 text-white" href="/">
-                            <h2 class="text-uppercase mb-4">MGM Dental Care</h2>
+                            <h2 class="text-uppercase mb-4">{{clinicName}}</h2>
                         </a>
                     </div>
                     <!--Grid column-->
@@ -21,14 +21,14 @@
                     <div class="col-lg-4 col-md-6 mb-2 mb-md-0 mt-md-4">
                         <div class="mt-4">
                             <!-- Location -->
-                            <a class="m-2" href="https://maps.app.goo.gl/7ZXcKZa9KMA3PMWU9" target="value_blank">
+                            <a class="m-2" href="{{location}}" target="value_blank">
                                 <i class="bi bi-geo-alt-fill text-white"></i>
                                 <span class="h5 text-white">
                                     <u>Location</u></span>
                             </a>
 
                             <p class="m-3">
-                                Uzhavar Sandhai Veedhi, Anna Nagar, Madurai, Tamil Nadu 625020, India
+                                {{address}}
                             </p>
 
                             <div class="m-2" aria-label="Phone Number">
@@ -52,7 +52,7 @@
                             <tbody>
                                 <tr>
                                     <td>Mon - Sat:</td>
-                                    <td>8am - 9pm</td>
+                                    <td>9am - 9pm</td>
                                 </tr>
                                 <tr>
                                     <td>Sunday:</td>
@@ -100,8 +100,8 @@
 
             <!-- Copyright -->
             <div class="text-center p-3" style="color: var(--secondary-color); background-color: rgba(0, 0, 0, 0.2);">
-                © 2024 Copyright:
-                <a class="text-white" href="/">MGMDentalClinic</a>
+                {{copyRightText}}
+                <a class="text-white" href="/">{{clinicLink}}</a>
             </div>
             <!-- Copyright -->
         </footer>
@@ -110,6 +110,3 @@
     <!-- End of .container -->
 
 </div>
-
-
-<!-- https://mdbootstrap.com/snippets/standard/mdbootstrap/2885111?view=side -->
